@@ -1,0 +1,73 @@
+.home {
+  &-header {
+    height: 136px;
+    line-height: 136px;
+    background: rgba(177, 180, 191, 0.3);
+    color: #ec8b5e;
+    font-size: 72px;
+    font-weight: bolder;
+    padding: 0 123px;
+    font-family: "Gochi Hand", cursive;
+    display: flex;
+    &-checkbox {
+      outline: none;
+      appearance: none;
+      position: relative;
+      width: 215px;
+      height: 60px;
+      margin-top: 38px;
+      background: #6b6b8c;
+      border-radius: 50px;
+      transition: border-color 0.3s, background-color 0.3s;
+    }
+    &-checkbox::placeholder {
+      color: #eecc88;
+    }
+    &-checkbox::before {
+      content: "Participant";
+      display: inline-block;
+      color: #eecc88;
+      font-size: 25px;
+      line-height: 60px;
+      top: 0px;
+      position: absolute;
+      left: 70px;
+    }
+    &-checkbox::after {
+      content: "";
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      border-radius: 50px;
+      background: #fff;
+      box-shadow: 0, 0, 2px, #999;
+      transition: 0.4s;
+      top: 0px;
+      position: absolute;
+      left: 0px;
+    }
+    // &-checkbox:checked {
+    //   background: #fff;
+    // }
+
+    // &-checkbox:checked::after {
+    //   content: "";
+    //   position: absolute;
+    //   left: 55%;
+    //   top: 2px;
+    // }
+  }
+  &-more {
+    width: 240px;
+    height: 59px;
+    background: #eecc88;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 59px;
+    color: #6b6b8c;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+  }
+}

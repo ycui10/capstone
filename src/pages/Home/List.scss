@@ -1,0 +1,104 @@
+.list {
+  &-select {
+    padding: 64px 35px 50px 124px;
+    &-item {
+      width: 377px;
+      height: 52px;
+      outline: none;
+      font-size: 20px;
+      line-height: 52px;
+      margin-right: 45px;
+      padding-left: 16px;
+      option {
+        width: 377px;
+        height: 52px;
+        font-size: 20px;
+        line-height: 52px;
+      }
+    }
+  }
+  &-banner {
+    width: 995px;
+    height: 534px;
+    background: rgba(177, 180, 191, 0.3);
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding-top: 45px;
+    position: relative;
+    text-align: center;
+    &-title {
+      position: absolute;
+      color: #ec8b5e;
+      font-size: 50px;
+      line-height: 70px;
+      top: 0;
+      left: 30px;
+      font-family: "Gochi Hand", cursive;
+    }
+    &-img {
+      margin: 0 auto;
+      display: block;
+    }
+    &-name {
+      font-weight: bold;
+      font-size: 35px;
+      line-height: 41px;
+      margin-top: 26px;
+    }
+    &-msg {
+      font-size: 25px;
+      line-height: 29px;
+    }
+  }
+  &-event {
+    overflow: hidden;
+    padding-left: 130px;
+    &-item {
+      float: left;
+      margin-right: 60px;
+      &-img {
+        width: 362px;
+        height: 362px;
+      }
+      &-con {
+        display: flex;
+        margin: 27px 0 40px 0;
+        &-left {
+          &-title {
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 35px;
+          }
+          &-msg {
+            font-size: 22px;
+            line-height: 26px;
+          }
+        }
+        &-add {
+          width: 80px;
+          margin-left: 8px;
+          height: 45px;
+          line-height: 45px;
+          text-align: center;
+          border: 3px solid #141a46;
+          border-radius: 15px;
+          font-size: 20px;
+          color: #141a46;
+          cursor: pointer;
+        }
+        &-del {
+          width: 80px;
+          margin-left: 8px;
+          height: 45px;
+          line-height: 45px;
+          text-align: center;
+          border: 3px solid #ec8b5e;
+          border-radius: 15px;
+          font-size: 20px;
+          color: #ec8b5e;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

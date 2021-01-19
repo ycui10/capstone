@@ -1,0 +1,76 @@
+.analytics {
+  &-header {
+    height: 136px;
+    line-height: 136px;
+    background: rgba(177, 180, 191, 0.3);
+    color: #ec8b5e;
+    font-size: 72px;
+    font-weight: bolder;
+    padding: 0 123px;
+    font-family: "Gochi Hand", cursive;
+    display: flex;
+  }
+  &-summary {
+    height: 514px;
+    background: rgba(177, 180, 191, 0.15);
+    padding: 52px 0 0 113px;
+    &-item {
+      width: 476px;
+      height: 183px;
+      float: left;
+      margin: 0 45px 45px 0;
+      padding: 27px 0 0 84px;
+      background: #fff;
+      box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.23);
+      border-radius: 25px;
+      &-name {
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 89px;
+        color: #ec8b5e;
+      }
+      &-msg {
+        font-size: 45px;
+      }
+    }
+  }
+  &-insights {
+    height: 713px;
+    background: rgba(177, 180, 191, 0.15);
+    padding: 36px 0 0 137px;
+    font-size: 50px;
+    line-height: 60px;
+    &-item {
+      margin-bottom: 50px;
+      &-name {
+        font-weight: bold;
+        color: #ec8b5e;
+      }
+    }
+  }
+  &-breakdown {
+    &-item {
+      padding-top: 54px;
+      &-name {
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 59px;
+        color: #ec8b5e;
+        padding-left: 130px;
+      }
+      &-con {
+        display: flex;
+        margin-top: 40px;
+        &-select {
+          width: 350px;
+          height: 52px;
+          outline: none;
+          font-size: 20px;
+          line-height: 52px;
+          margin-left: 345px;
+          padding-left: 16px;
+        }
+      }
+    }
+  }
+}

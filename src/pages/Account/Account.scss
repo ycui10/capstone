@@ -1,0 +1,144 @@
+.account {
+  &-header {
+    height: 136px;
+    line-height: 136px;
+    background: rgba(177, 180, 191, 0.3);
+    color: #ec8b5e;
+    font-size: 72px;
+    font-weight: bolder;
+    padding: 0 123px;
+    font-family: "Gochi Hand", cursive;
+    display: flex;
+  }
+  &-profile {
+    height: 511px;
+    background: rgba(177, 180, 191, 0.15);
+    display: flex;
+    padding: 0 130px;
+    &-left {
+      flex: 1;
+      padding-top: 60px;
+      &-name {
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 104px;
+        span {
+          padding-left: 20px;
+          font-weight: bold;
+          font-size: 30px;
+          color: rgba(0, 0, 0, 0.5);
+        }
+      }
+      &-msg {
+        font-size: 25px;
+        line-height: 29px;
+        color: #7a7a7b;
+        margin-bottom: 30px;
+      }
+      &-about {
+        font-size: 35px;
+        line-height: 41px;
+        text-decoration-line: underline;
+        margin-bottom: 16px;
+      }
+      &-info {
+        font-size: 30px;
+        line-height: 35px;
+      }
+    }
+    &-right {
+      padding-top: 40px;
+      &-img {
+        margin-bottom: 30px;
+      }
+      &-msg {
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 41px;
+      }
+    }
+  }
+  &-settings {
+    padding: 83px 0 0 105px;
+    &-name {
+      font-weight: bold;
+      font-size: 50px;
+      line-height: 59px;
+      margin-bottom: 68px;
+      color: #ec8b5e;
+    }
+    &-security {
+      display: flex;
+      margin-bottom: 108px;
+      &-item {
+        display: flex;
+        margin-bottom: 32px;
+        &-img {
+          height: 105px;
+          margin: 30px 38px 0 0;
+        }
+        &-right {
+          &-label {
+            font-size: 25px;
+            line-height: 30px;
+            margin-bottom: 34px;
+          }
+          &-input {
+            width: 477px;
+            height: 76px;
+            border: 1px solid #000000;
+            padding-left: 10px;
+            line-height: 76px;
+            font-size: 40px;
+          }
+        }
+      }
+      &-btn {
+        width: 246px;
+        height: 86px;
+        background: #141a46;
+        border-radius: 25px;
+        text-align: center;
+        line-height: 86px;
+        margin: 0 auto;
+        font-weight: bold;
+        font-size: 40px;
+        color: #eecc88;
+        margin-top: 55px;
+      }
+    }
+    &-payment {
+      padding-left: 60px;
+      &-label {
+        font-size: 25px;
+        line-height: 29px;
+        margin-bottom: 20px;
+        img {
+          width: 33px;
+          margin-top: 10px;
+        }
+      }
+      &-input {
+        width: 477px;
+        height: 76px;
+        border: 1px solid #000000;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        line-height: 76px;
+        font-size: 40px;
+      }
+      &-btn {
+        width: 246px;
+        height: 86px;
+        background: #141a46;
+        border-radius: 25px;
+        text-align: center;
+        line-height: 86px;
+        font-weight: bold;
+        font-size: 40px;
+        color: #eecc88;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

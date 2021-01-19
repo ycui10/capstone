@@ -1,0 +1,67 @@
+.layout {
+  &-header {
+    height: 70px;
+    display: flex;
+    padding: 26px 42px;
+    &-logo {
+      width: 233px;
+    }
+    &-login {
+      display: flex;
+      &-events {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 70px;
+        color: #ec8b5e;
+        margin-right: 37px;
+      }
+      &-btn {
+        width: 150px;
+        height: 62px;
+        background: #141a46;
+        border-radius: 15px;
+        line-height: 62px;
+        font-size: 32px;
+        color: #eecc88;
+        text-align: center;
+      }
+    }
+    &-logout {
+      display: flex;
+      &-name {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 70px;
+        color: #ec8b5e;
+        padding-right: 14px;
+      }
+      &-btn {
+        height: 28px;
+        padding-left: 14px;
+        margin-top: 20px;
+        font-size: 24px;
+        line-height: 28px;
+        color: #141a46;
+        border-left: 1px solid #ec8b5e;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+  &-nav {
+    height: 178px;
+    line-height: 178px;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 82px;
+    display: flex;
+    &-item {
+      padding: 0 46px;
+      color: #141a46;
+      &-active {
+        text-decoration-line: underline !important;
+        color: #ec8b5e;
+      }
+    }
+  }
+}

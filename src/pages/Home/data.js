@@ -1,0 +1,111 @@
+import Img1 from "../../assets/home/img1.svg";
+import Img2 from "../../assets/home/img2.svg";
+import Img3 from "../../assets/home/img3.svg";
+import Img4 from "../../assets/home/img4.svg";
+import Img5 from "../../assets/home/img5.svg";
+import Img6 from "../../assets/home/img6.svg";
+import Img7 from "../../assets/home/img7.svg";
+
+export const eventList = [
+  {
+    id: 7,
+    img: Img7,
+    title: "Morning Yoga",
+    timeStr: "10:30am EST, January 10th",
+    name: "Alice Kim",
+    money: "50",
+    type: "fitness",
+    date: "month",
+    time: "2",
+  },
+  {
+    id: 4,
+    img: Img4,
+    title: "Bitcoin Basics",
+    timeStr: "11:00am EST, January 15th",
+    name: "Alice Kim",
+    money: "50",
+    type: "technology",
+    date: "month",
+    time: "2",
+  },
+  {
+    id: 5,
+    img: Img5,
+    title: "Pasta 101",
+    timeStr: "12:00am EST, January 1th",
+    name: "Alice Kim",
+    money: "50",
+    type: "food",
+    date: "month",
+    time: "2",
+  },
+];
+export const myList = [
+  {
+    id: 1,
+    img: Img1,
+    title: "Fall Unboxing",
+    timeStr: "11:00am EST, January 4th",
+    name: "Alice Kim",
+    money: "50",
+    type: "fashion",
+    date: "month",
+    time: "2",
+  },
+  {
+    id: 2,
+    img: Img2,
+    title: "Graphic Design",
+    timeStr: "09:00am EST, January 19th",
+    name: "Alice Kim",
+    money: "50",
+    type: "technology",
+    date: "month",
+    time: "2",
+  },
+  {
+    id: 3,
+    img: Img3,
+    title: "French Toast Bake",
+    timeStr: "08:30am EST, January 21th",
+    name: "Alice Kim",
+    money: "50",
+    type: "food",
+    date: "month",
+    time: "2",
+  },
+  {
+    id: 4,
+    img: Img4,
+    title: "Bitcoin Basics",
+    timeStr: "11:00am EST, January 20th",
+    name: "Alice Kim",
+    money: "50",
+    type: "technology",
+    date: "month",
+    time: "4",
+  },
+  {
+    id: 5,
+    img: Img5,
+    title: "Pasta 101",
+    timeStr: "12:00am EST, January 10th",
+    name: "Alice Kim",
+    money: "50",
+    type: "food",
+    date: "month",
+    time: "2",
+  },
+  {
+    id: 6,
+    img: Img6,
+    title: "Meditation Intro",
+    timeStr: "10:30am EST, January 30th",
+    name: "Alice Kim",
+    money: "50",
+    type: "fitness",
+    date: "month",
+    time: "2",
+  },
+];
